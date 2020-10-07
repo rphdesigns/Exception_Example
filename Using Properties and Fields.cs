@@ -7,7 +7,7 @@ namespace Exception_Example
         public static void Using_Prop_and_Fields()
         {
             Person p = new Person();
-            p.Age = 91;
+            p.Age = 50;
             p.Weight = 265;
 
             Console.WriteLine("Age: " + p.Age);
