@@ -12,13 +12,9 @@ namespace Exception_Example
             //Exception_Example.Exception_Example_Method();
             //StringBuilderExample.StringBuilderExample_Method();
             //StringReadWrite.StringReadWrite_Runner();
-            Using_Properties_and_Fields.Using_Prop_and_Fields();
+            //Using_Properties_and_Fields.Using_Prop_and_Fields();
 
-            //this is a GITHUB test
-            //This is a GITHUB test from mac
-            var test = "This is a test";
-
-            Console.WriteLine(test);
+            
         }
     }
 }
