@@ -14,8 +14,9 @@ namespace Exception_Example
             //StringReadWrite.StringReadWrite_Runner();
             //Using_Properties_and_Fields.Using_Prop_and_Fields();
             //Constructor_Example.ConstructorExample();
-            Static_Example static_ = new Static_Example();
-            static_.Static_Example_Main();
+            //Static_Example static_ = new Static_Example();
+            //static_.Static_Example_Main();
+
             
         }
     }
