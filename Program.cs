@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Exception_Example;
-
+using Exception_Example.Types_Examples;
 
 namespace Exception_Example
 {
@@ -9,6 +9,7 @@ namespace Exception_Example
     {
         static void Main(string[] args)
         {
+            #region Basics
             //CollectionsandArrays.CollectionsandArrays_Method();
 
             //Exception_Example.Exception_Example_Method();
@@ -16,6 +17,10 @@ namespace Exception_Example
             //StringBuilderExample.StringBuilderExample_Method();
 
             //StringReadWrite.StringReadWrite_Runner();
+
+            #endregion
+
+            #region Type_Examples
 
             //Using_Properties_and_Fields.Using_Prop_and_Fields();
 
@@ -31,13 +36,18 @@ namespace Exception_Example
             //generics_.Generics();
 
             //CastAndConvertExample.CastAndConvertExample1();
-            CastAndConvertExample.CastAndConvertExample2();
-            CastAndConvertExample.CastAndConvertExample3();
+            //CastAndConvertExample.CastAndConvertExample2();
+            //CastAndConvertExample.CastAndConvertExample3();
 
+            //BoxingAndUnboxing.BoxingAndUnboxing_Example1();
 
+            //Indexers.Indexers_Example();
 
+            #endregion
 
+         
         }
+
     }
 
 }
