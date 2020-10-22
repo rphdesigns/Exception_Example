@@ -30,12 +30,13 @@ namespace Exception_Example
             //Generics_Example generics_ = new Generics_Example();
             //generics_.Generics();
 
-            int num = 2147483647;
-            long bigNum = num;
+            //CastAndConvertExample.CastAndConvertExample1();
+            CastAndConvertExample.CastAndConvertExample2();
+            CastAndConvertExample.CastAndConvertExample3();
 
-            int i = 5;
-            double d = 10.5;
-            i = d;
+
+
+
         }
     }
 
