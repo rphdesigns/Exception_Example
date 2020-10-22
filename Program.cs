@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Exception_Example;
 using Exception_Example.Types_Examples;
+using Exception_Example.Inheritance;
 
 namespace Exception_Example
 {
@@ -45,9 +46,16 @@ namespace Exception_Example
 
             #endregion
 
-         
+            #region Inheritance
+
+            //InheritanceExample.InheritanceExample1();
+            
+            
+
+            #endregion
         }
 
     }
 
+    
 }
