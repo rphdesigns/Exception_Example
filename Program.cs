@@ -21,7 +21,7 @@ namespace Exception_Example
 
             #endregion
 
-            #region Type_Examples
+            #region Type Examples
 
             //Using_Properties_and_Fields.Using_Prop_and_Fields();
 
@@ -46,9 +46,11 @@ namespace Exception_Example
 
             #endregion
 
-            #region Inheritance
+            #region Class Hierarchies
 
             //InheritanceExample.InheritanceExample1();
+
+            //Method_Overloading.Method_Overloading_Example();
             
             
 
