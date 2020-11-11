@@ -51,8 +51,10 @@ namespace Exception_Example
             //InheritanceExample.InheritanceExample1();
 
             //Method_Overloading.Method_Overloading_Example();
-            
-            
+
+            //Override_Example.Override_Example1();
+
+            Extension_Method.Extension_Method_Example();
 
             #endregion
         }
