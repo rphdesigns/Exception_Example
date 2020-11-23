@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Exception_Example;
 using Exception_Example.Types_Examples;
 using Exception_Example.Inheritance;
+using Exception_Example.Class_Hierarchies;
 
 namespace Exception_Example
 {
@@ -54,7 +55,11 @@ namespace Exception_Example
 
             //Override_Example.Override_Example1();
 
-            Extension_Method.Extension_Method_Example();
+            //Extension_Method.Extension_Method_Example();
+
+            //Creating_an_Interface.Example1();
+
+            Explicit_Implementation_Example.Example1();
 
             #endregion
         }
