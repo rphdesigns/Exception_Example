@@ -11,4 +11,7 @@
     <None Remove="Examples\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Delegates\" />
+  </ItemGroup>
 </Project>

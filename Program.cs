@@ -4,6 +4,7 @@ using Exception_Example;
 using Exception_Example.Types_Examples;
 using Exception_Example.Inheritance;
 using Exception_Example.Class_Hierarchies;
+using Exception_Example.Delegates;
 
 namespace Exception_Example
 {
@@ -59,7 +60,15 @@ namespace Exception_Example
 
             //Creating_an_Interface.Example1();
 
-            Explicit_Implementation_Example.Example1();
+            //Explicit_Implementation_Example.Example1();
+
+            //IEnumerable_Example.IEnumerable_Example1();
+
+            #endregion
+
+            #region Delegates
+
+            Delegate_Example.Delegate_Example1();
 
             #endregion
         }
