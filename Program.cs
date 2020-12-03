@@ -77,9 +77,12 @@ namespace Exception_Example
 
             #region Events
 
-            Basic_Event_Example.Basic_Event_Example1();
+            //Basic_Event_Example.Basic_Event_Example1();
 
             #endregion
+
+
+
         }
 
     }

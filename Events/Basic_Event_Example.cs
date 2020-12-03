@@ -39,9 +39,9 @@ namespace Exception_Example.Events
 
     public class EvtSubscriber
     {
-        public void HandleTheEvent(object sender, EventArgs e)
+        public void HandleTheEvent(object sender, EvtArgsClass e)
         {
-            Console.WriteLine("ATTENTION! " + sender + "is advising that the balance is over 250...");
+            Console.WriteLine("ATTENTION! from " + sender + ": " + e.Message);
         }
     }
 
