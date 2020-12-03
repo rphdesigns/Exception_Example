@@ -5,6 +5,7 @@ using Exception_Example.Types_Examples;
 using Exception_Example.Inheritance;
 using Exception_Example.Class_Hierarchies;
 using Exception_Example.Delegates;
+using Exception_Example.Events;
 
 namespace Exception_Example
 {
@@ -68,7 +69,15 @@ namespace Exception_Example
 
             #region Delegates
 
-            Delegate_Example.Delegate_Example1();
+            //Delegate_Example.Delegate_Example1();
+
+            //Multicast_Delegate_Example.Multicast_Delegate_Example1();
+
+            #endregion
+
+            #region Events
+
+            Basic_Event_Example.Basic_Event_Example1();
 
             #endregion
         }
