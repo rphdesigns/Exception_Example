@@ -6,14 +6,14 @@ using Exception_Example.Inheritance;
 using Exception_Example.Class_Hierarchies;
 using Exception_Example.Delegates;
 using Exception_Example.Events;
+using Exception_Example.Asyn_Programming;
 
 namespace Exception_Example
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            #region Basics
+        static void Main(string[] args) =>
+        #region Basics
             //CollectionsandArrays.CollectionsandArrays_Method();
 
             //Exception_Example.Exception_Example_Method();
@@ -22,9 +22,9 @@ namespace Exception_Example
 
             //StringReadWrite.StringReadWrite_Runner();
 
-            #endregion
+        #endregion
 
-            #region Type Examples
+        #region Type Examples
 
             //Using_Properties_and_Fields.Using_Prop_and_Fields();
 
@@ -47,9 +47,9 @@ namespace Exception_Example
 
             //Indexers.Indexers_Example();
 
-            #endregion
+        #endregion
 
-            #region Class Hierarchies
+        #region Class Hierarchies
 
             //InheritanceExample.InheritanceExample1();
 
@@ -65,25 +65,28 @@ namespace Exception_Example
 
             //IEnumerable_Example.IEnumerable_Example1();
 
-            #endregion
+        #endregion
 
-            #region Delegates
+        #region Delegates
 
             //Delegate_Example.Delegate_Example1();
 
             //Multicast_Delegate_Example.Multicast_Delegate_Example1();
 
-            #endregion
+        #endregion
 
-            #region Events
+        #region Events
 
             //Basic_Event_Example.Basic_Event_Example1();
 
-            #endregion
+        #endregion
 
+        #region Asynchronous Programming
 
+            Multithreading_Example.Multithreading_Example1();
 
-        }
+        #endregion
+
 
     }
 
